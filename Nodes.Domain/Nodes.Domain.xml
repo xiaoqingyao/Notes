@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Notes.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Nodes.Domain.Core.PageObj.Id">
+            <summary>
+            页ID
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.Core.PageObj.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.Core.PageObj.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.Core.SectionValue.Id">
+            <summary>
+            ID 
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.Core.SectionValue.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.Core.SectionValue.Pages">
+            <summary>
+            包含的页
+            </summary>
+        </member>
+        <member name="T:Nodes.Domain.DTOS.CreateNotesDTO">
+            <summary>
+            创建学习笔记
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.CreateNotesDTO.Category">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.CreateNotesDTO.Subject">
+            <summary>
+            科目
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.CreateNotesDTO.Section">
+            <summary>
+            分区
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.CreateNotesDTO.Page">
+            <summary>
+            页
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.CreateNotesDTO.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="T:Nodes.Domain.DTOS.NotesComponent">
+            <summary>
+            笔记组件
+            </summary>
+        </member>
+        <member name="T:Nodes.Domain.DTOS.ListDTO">
+            <summary>
+            列表
+            </summary>
+        </member>
+        <member name="T:Nodes.Domain.DTOS.UpdatePropDTO">
+            <summary>
+            修改名称的参数
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.UpdatePropDTO.Id">
+            <summary>
+            要修改的对象Id
+            </summary>
+        </member>
+        <member name="P:Nodes.Domain.DTOS.UpdatePropDTO.Body">
+            <summary>
+            要修改的名称
+            </summary>
+        </member>
+    </members>
+</doc>

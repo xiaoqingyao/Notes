@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>D:\source\reps\Notes\Notes.Domain\Notes.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Notes.Domain.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Class1.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="DotNetCore.CAP" Version="3.0.4" />
+    <PackageReference Include="linq2db.SqlServer" Version="3.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Notes.Data\Notes.Data.csproj" />
+    <ProjectReference Include="..\Notes.Events\Notes.Events.csproj" />
+    <ProjectReference Include="..\Notes.infrastructure\Notes.infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Notes.Domain.xml" />
+  </ItemGroup>
+
+</Project>

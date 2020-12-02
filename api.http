@@ -1,0 +1,63 @@
+POST https://localhsot:5001/api/Notes/d4l_entry
+Author: 6DCE79B29412D9D1F899210DE116
+Content-Type:  application/json
+
+{"classId":"20318",
+"catalogCode":"/1/1/2/1/2596/70110"
+,"catalogName":"/小学/语文/人教版/一年级上/我上学了/第二单元 近体诗之以诗言志/赤壁"
+,"dsId":"4f6ec740-68b8-4120-96cc-74bf6b982170"
+,"dsName":"赤壁"
+,"taskName":"新建任务"
+,"taskId":"3c444e81-4fae-43c1-bb12-0cd967cf5e81"
+
+}
+
+### 
+
+POST  https://localhost:5001/api/Notes/create
+Author: 6DCE79B29412D9D1F899210DE116
+Content-Type:  application/json
+
+{
+  "name": "新的笔记本123",
+  "catalogName": "分类",
+  "catalogCode": "4",
+  "gradeCode": "4",
+  "gradeName": "班级",
+  "classId": "班级名称",
+  "source": "新建"
+
+}
+
+###
+POST  https://localhost:5001/api/Notes/create_section
+Author: 6DCE79B29412D9D1F899210DE116
+Content-Type:  application/json
+
+{
+  "id": "6ebb19b0-9283-4432-9939-0a427ffaa466",
+  "body": "分区名称"
+}
+
+
+###
+POST  https://localhost:5001/api/Notes/update_section_name
+Author: 6DCE79B29412D9D1F899210DE116
+Content-Type:  application/json
+
+{
+    "notesId": "86620577-f915-4343-a217-2149a82e8103",
+  "id": "c879860a-da14-4446-8e7c-7001c8fb9d8d",
+  "body": "分区名称修改sddd"
+}
+
+###
+POST  https://localhost:5001/api/Notes/del_section
+Author: 6DCE79B29412D9D1F899210DE116
+Content-Type:  application/json
+
+{
+  "id": "6EBB19B0-9283-4432-9939-0A427FFAA466",
+  "sectionId": "5C841E15-5675-4669-94F3-3AB4CF3CA80B"
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoursePlatform.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:CoursePlatform.Domain.DTOS.CreateCourseDTO">
+            <summary>
+            创建课程参数
+            </summary>
+        </member>
+        <member name="P:CoursePlatform.Domain.DTOS.CreateCourseDTO.Name">
+            <summary>
+            课程名称
+            </summary>
+        </member>
+    </members>
+</doc>

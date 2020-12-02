@@ -1,0 +1,11 @@
+{
+  "ABPSettings": {
+    "HostName": "127.0.0.1",
+    "Password": "ABCabc0325",
+    "UserName": "rabbit_mq_user",
+    "VirtualHost": "/",
+    "ExchangeName": "Notes_Events",
+    "Port": 5672
+  }
+
+}
